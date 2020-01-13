@@ -1,7 +1,10 @@
 package main
 
-import "bookstore_users-api/app"
+import (
+	"golang-users-api/app"
+)
 
-func main(){
+func main() {
+
 	app.StartApplication()
 }
